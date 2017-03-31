@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+
+<class name="com.User" table="FoodData">  
+    <id name="id" >
+        <generator class="increment" ></generator>
+    </id>  
+    
+    <property name="state" column="State" ></property>
+    <property name="zipcode" column="ZipCode"></property>  
+    <property name="country" column="Country"></property>  
+    <property name="city" column="City"></property> 
+    <property name="mobile" column="Mobile"></property>
+    <property name="organization" column="ORG"></property>
+    <property name="personCount" column="CPerson"></property> 
+    <property name="d" column="DateReg"></property>
+ 
+ </class>
+
+
+</hibernate-mapping>

@@ -1,0 +1,36 @@
+
+
+#count-box3{
+	display: block;
+	border: 2px black solid;
+	color: black;
+	font-size: 3em;
+	border-radius: 50%;
+	line-height: 120px;
+	height: 120px;
+	width: 120px;
+	text-align: center;
+}
+#count-box2{
+	display: block;
+	border: 2px black solid;
+	color: black;
+	font-size: 3em;
+	border-radius: 50%;
+	line-height: 120px;
+	height: 120px;
+	width: 120px;
+	text-align: center;
+}
+
+#count-box{
+	display: block;
+	border: 2px black solid;
+	color: black;
+	font-size: 3em;
+	border-radius: 50%;
+	line-height: 120px;
+	height: 120px;
+	width: 120px;
+	text-align: center;
+}
