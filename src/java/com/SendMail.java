@@ -33,8 +33,8 @@ public class SendMail {
                  
 		String host = "smtp.gmail.com";
         String port = "587";
-        String mailFrom = "diakadam07@gmail.com";
-        String password1 = "dishadeepakdivya";
+        String mailFrom = "bhaveshsingh322@gmail.com";
+        String password1 = "****************";
         String mailTo = emailAddress;
         String subject = "Greeting";
         String message = "Thank you "+firstName+" for Donating your valuable Food in "+City+", Hope We see you again ";
